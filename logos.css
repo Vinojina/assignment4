@@ -1,0 +1,13 @@
+.logos{
+    animation: moveRight 5s linear infinite
+}
+@keyframes moveRight {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: 100%;
+            transform: translateX(-100%);
+        }
+    }
+
